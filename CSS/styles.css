@@ -166,15 +166,34 @@ img {
 
 .kontakt-line {
   margin-left: auto;
+
+
 }
+
+.mail {
+  margin-right: 10px;
+}
+
+.smartphone {
+  margin-right: 10px;
+  
+}
+
+
 
 .kontakt-link {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   margin: 0px 40px 0px 0px;
+  
 
   color: #757575;
+}
+
+.kontakt-link:first-child {
+
+  
 }
 
 .kontakt-link:last-child {
@@ -194,6 +213,10 @@ img {
 .font-hero-header {
   background-color: #2f303a;
   padding: 200px 0;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) ,
+  url(/images/imgbck.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
 
   text-align: center;
   /* position: absolute; */
@@ -247,6 +270,44 @@ img {
 
 .features {
   padding: 94px 0px;
+}
+
+.antenna {
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.clock {
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+
+.vector {
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.astronaut-icon {
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.astronaut {
+
+
 }
 
 .features-list {
@@ -356,10 +417,12 @@ img {
 .team-card-foto {
   transition: all 1000ms ease;
 }
+
 .team-card-foto:hover {
   transform: scale(0.9);
   transition: all 750ms ease;
 }
+
 
 .team-card-name {
   font-weight: 500;
