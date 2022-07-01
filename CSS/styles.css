@@ -226,7 +226,7 @@ img {
   background-color: #2f303a;
   padding: 200px 0;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) ,
-  url(./images/imgbck.jpg);
+  url(/images/imgbck.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 
