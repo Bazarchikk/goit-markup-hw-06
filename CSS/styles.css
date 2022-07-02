@@ -165,7 +165,8 @@ img {
 
 .kontakt-line {
   margin-left: auto;
-
+  display: flex;
+  
 
 }
 
@@ -184,6 +185,9 @@ img {
 
 
 .kontakt-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -226,7 +230,7 @@ img {
   background-color: #2f303a;
   padding: 200px 0;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) ,
-  url(/images/imgbck.jpg);
+  url(../images/imgbck.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 
@@ -284,7 +288,7 @@ img {
   padding: 94px 0px;
 }
 
-.antenna {
+.icon-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -293,37 +297,10 @@ img {
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.clock {
-  background-color: #F5F4FA;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-
-
-.vector {
-  background-color: #F5F4FA;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-
-.astronaut-icon {
-  background-color: #F5F4FA;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-
-.astronaut {
-
 
 }
+
+
 
 .features-list {
   display: flex;
@@ -562,8 +539,11 @@ img {
 }
 
 .footer-container {
-  /*padding: 60px 0px 60px 0px;*/
+    display: flex;
+    /* padding: 60px 0px 60px 0px; */
+    align-items: baseline;
 }
+
 
 .footer-contact-body {
 }
