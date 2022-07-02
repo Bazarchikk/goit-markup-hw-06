@@ -684,8 +684,8 @@ address-list-body {
 
 .portfolio-btn-link:hover,
 .portfolio-btn-link:focus {
-  /*box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);*/
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   color: var(--white-color);
   background: var(--blue-color);
 }
@@ -695,6 +695,11 @@ address-list-body {
   justify-content: center;
   
   flex-wrap: wrap;
+}
+
+.portfolio-cards-item:hover {
+  cursor: pointer;
+  box-shadow: 5px 10px 10px -3px rgb(0 0 0 / 20%);
 }
 
 .portfolio-cards-item {
@@ -718,7 +723,10 @@ address-list-body {
 .card-img {
   max-width: 370px;
   // border: 1px solid rgba(238, 238, 238, 1);
+  
 }
+
+
 
 .body-card-text-box {
   padding: 20px 20px;
