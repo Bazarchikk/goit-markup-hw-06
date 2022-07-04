@@ -155,9 +155,9 @@ img {
   border-radius: 2px;
 }
 
-/*.navigation-link.current::after {
+.navigation-link.current::after {
   opacity: 1;
-}*/
+}
 
 .active {
   color: var(--blue-color);
@@ -308,7 +308,7 @@ img {
 }
 
 .features-link {
-  margin: 0px 45px 0px 0px;
+  margin: 0px 30px 0px 0px;
 }
 
 .features-link:last-child {
@@ -478,8 +478,10 @@ img {
   color: #757575;
 }
 
-.client-box {
+.client {
   padding-top: 94px;
+  padding-bottom: 94px;
+
  
 }
 
@@ -487,23 +489,19 @@ img {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
-  background-color:var(--white-color);
-  
-  
 }
 
-.our-client-link {
-  background-color: var(--white-color);
-  border-radius: 50%;
-
-}
+/*.our-client-item:hover,
+.our-client-item:focus {
+  border: 1px solid var(--blue-color);
+  
+}*/
 
 .our-client-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.1rem solid #AFB1B8;
+  border: 1px solid #AFB1B8;
   margin-right: 30px;
   border-radius: 4px 4px 4px 4px;
   width: 170px;
@@ -511,19 +509,27 @@ img {
   
 }
 
+
+
 .our-client-item:last-child {
   margin-right: 0;
 }
 
 .our-client-link:hover,
 .our-client-link:focus {
-  background-color: transparent;
+  background-color: var(--white-cbolor);
+  
+
 }
+
+.our-client-item:hover,
+.our-client-item:focus {
+  border: 1px solid var(--blue-color);
+}
+
 
 .our-client-icon {
   fill: #afb1b8;
-  width: 106px;
-  height: 60px;
 }
 
 .our-client-link:hover .our-client-icon,
@@ -538,6 +544,10 @@ img {
   padding: 60px 0px 60px 0px;
 }
 
+.footer-title {
+ 
+}
+
 .footer-container {
     display: flex;
     /* padding: 60px 0px 60px 0px; */
@@ -546,13 +556,15 @@ img {
 
 
 .footer-contact-body {
+  padding-left: 70px;
 }
 
 .footer-logo-body {
   margin: 0px 0px 20px 0px;
 }
 
-address-list-body {
+.address-list-body {
+  display: flex;
 }
 
 .footer-address-list {
@@ -697,9 +709,9 @@ address-list-body {
   flex-wrap: wrap;
 }
 
-.portfolio-cards-item:hover {
-  cursor: pointer;
-  box-shadow: 5px 10px 10px -3px rgb(0 0 0 / 20%);
+.card-link:hover {
+  box-shadow: 5px 10px 10px -3px rgb(0 0 0 / 20%),
+  -10px 0 10px -12px rgba(0 0 0 / 20%);
 }
 
 .portfolio-cards-item {
@@ -718,11 +730,12 @@ address-list-body {
 }
 
 .card-link {
+  display: block;
 }
 
 .card-img {
   max-width: 370px;
-  // border: 1px solid rgba(238, 238, 238, 1);
+  
   
 }
 
@@ -731,7 +744,9 @@ address-list-body {
 .body-card-text-box {
   padding: 20px 20px;
   line-height: 2;
-  border: 0px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
   // letter-spacing: 0.06em;
 
   color: var(--second-black);
