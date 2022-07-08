@@ -1,3 +1,4 @@
+/*GENERAL*/
 * {
   margin: 0;
   padding: 0;
@@ -65,6 +66,8 @@ img {
   margin: 0 auto;
   padding: 0px 15px 0px 15px;
 }
+
+/*HEADER*/
 
 .logo {
   font-family: var(--second-font);
@@ -210,6 +213,8 @@ img {
   fill: var(--blue-color);
 }
 
+/*main-FONT-HERO-HEADER*/
+
 .hero-container {
   /*padding: 200px 0;*/
 }
@@ -275,6 +280,8 @@ img {
   outline-offset: 50px;
 }
 
+/*main-features*/
+
 .features {
   padding: 94px 0px;
 }
@@ -321,11 +328,11 @@ img {
   color: #757575;
 }
 
+/*main-doing*/
+
 .doing {
   padding: 0px 0px 94px 0px;
 }
-
-
 
 .doing-container {
   text-align: center;
@@ -343,7 +350,6 @@ img {
 
 .doing-list {
   display: flex;
-  
 }
 
 .doing-link {
@@ -353,6 +359,35 @@ img {
 .doing-link:last-child {
   margin-right: 0px;
 }
+
+.text-img {
+  position: relative;
+  width: 100%;
+}
+
+.text-img-in {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  top: 224px;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background		: rgba(47, 48, 58, 0.8);
+  color: #FFFFFF;
+}
+
+
+/*main-team*/
 
 .team {
   background-color: var(--grey-color);
@@ -465,6 +500,8 @@ img {
   color: #757575;
 }
 
+/*main-client*/
+
 .client {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -515,6 +552,8 @@ img {
 .our-client-link:focus .our-client-icon {
   fill: var(--blue-color);
 }
+
+/*main-footer*/
 
 .footer {
   background-color: rgba(47, 48, 58, 1);
@@ -628,6 +667,8 @@ img {
   margin-right: 0;
 }
 
+/*main-portfolio*/
+
 .portfolio-work-gallary {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -681,12 +722,9 @@ img {
   flex-wrap: wrap;
 }
 
-
-
 .card-link:hover {
   box-shadow: 5px 10px 10px -3px rgb(0 0 0 / 20%),
     -10px 0 10px -12px rgba(0 0 0 / 20%);
-   
 }
 
 .portfolio-cards-item {
@@ -706,17 +744,15 @@ img {
 
 .card-link {
   display: block;
-  
 }
-
 
 .card-img {
   max-width: 370px;
-  
 }
 
+
 .img-text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -725,7 +761,7 @@ img {
 
   letter-spacing: 0.03em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .overlay-make {
@@ -735,7 +771,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-color: transparent;
- 
+
   overflow: hidden;
 }
 
@@ -762,11 +798,7 @@ img {
   padding-left: 24px;
   padding-right: 24px;
   margin: 0;
-  
 }
-
-
-
 
 .body-card-text-box {
   padding: 20px 20px;
@@ -800,6 +832,7 @@ img {
 }
 
 /*modal css*/
+
 .backdrop {
   position: fixed;
   top: 0;
