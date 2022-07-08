@@ -16,3 +16,21 @@ https://github.com/sindresorhus/modern-normalize
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+
+
+<li class=“portfolio-cards-item body-card-item”>
+              <a href=“” class=“card-link link”>
+                <div class=“overlay-make”>
+                  <img
+                  src=“./images/project1.jpg”
+                  alt=“фото галереи работ”
+                  class=“card-img”
+                />
+                    <p class=“img-text”>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+                <div class=“body-card-text-box”>
+                  <h2 class=“card-title”>Технокряк</h2>
+                  <p class=“card-subtitle”>Веб-сайт</p>
+                </div>
+              </a>
+            </li>
