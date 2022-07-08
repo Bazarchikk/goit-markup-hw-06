@@ -369,12 +369,12 @@ img {
   position: absolute;
   display: flex;
   justify-content: center;
-  align-items:center ;
+  align-items: center;
   top: 224px;
   left: 0;
   width: 370px;
   height: 70px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -382,10 +382,9 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  background		: rgba(47, 48, 58, 0.8);
-  color: #FFFFFF;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
 }
-
 
 /*main-team*/
 
@@ -750,14 +749,22 @@ img {
   max-width: 370px;
 }
 
-
 .img-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translatey(100%);
+  transition: transform 250ms;
+  padding: 63px 24px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* or 156% */
 
   letter-spacing: 0.03em;
 
@@ -765,39 +772,16 @@ img {
 }
 
 .overlay-make {
-  position: relative;
-  width: 370px;
-  height: 294px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: transparent;
-
   overflow: hidden;
+  position: relative;
 }
 
 .overlay-make:hover .overlay {
   transform: translatex(0);
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(33, 150, 243, 0.9);
-
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.overlay > p {
-  color: #fff;
-  padding-top: 64px;
-  padding-bottom: 64px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin: 0;
+.card-link:hover .img-text {
+  transform: translatex(0);
 }
 
 .body-card-text-box {
