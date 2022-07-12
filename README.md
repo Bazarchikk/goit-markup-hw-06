@@ -34,3 +34,13 @@ https://github.com/sindresorhus/modern-normalize
                 </div>
               </a>
             </li>
+
+            <div class="user-email-form">
+            <form>
+              <label for="user_email" ></label>
+
+              <input class="user-email-title" type="email" name="email" id="user_email" placeholder="E-mail"/>
+
+              <button class="btn-submit" type="submit">Подписаться</button>
+            </form>
+          </div>
