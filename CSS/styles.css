@@ -704,6 +704,56 @@ img {
   margin-right: 0;
 }
 
+/*user-email*/
+.user-email-form {
+  padding-left: 93px;
+  
+  
+  width: 570px;
+  height: 86px;
+  
+}
+
+
+.user-email-title {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.btn-submit {
+  
+  width: 200px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  
+  
+  
+  color: #fff;
+  font-size: inherit;
+  cursor: pointer;
+  background-color: var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  
+}
+
+.user-form {
+  display: flex;
+
+}
+
+
+
 /*main-portfolio*/
 
 .portfolio-work-gallary {
@@ -901,30 +951,3 @@ img {
   pointer-events: none;
 }
 
-/*user-email*/
-.user-email-form {
-  display: flex;
-  align-items: baseline;
-}
-
-
-.user-email-title {
-  
-
-  width: 358px;
-  height: 50px;
- 
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-}
-
-.btn-submit {
-  
-  background: var(--blue-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
-}
