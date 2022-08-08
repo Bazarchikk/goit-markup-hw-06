@@ -600,7 +600,7 @@ img {
 }
 
 .footer-contact-body {
-  padding-left: 70px;
+  margin-left: 70px;
 }
 
 .footer-logo-body {
@@ -706,11 +706,9 @@ img {
 
 /*user-email*/
 .user-email-form {
-  padding-left: 93px;
+  margin-left: auto;
   
   
-  width: 570px;
-  height: 86px;
   
 }
 
@@ -933,7 +931,7 @@ img {
 
 .modal {
   width: 528px;
-  height: 580px;
+ 
   background-color: #ffffff;
   position: absolute;
   top: 50%;
@@ -1067,12 +1065,14 @@ img {
 }
 
 .modal-field-name {
+  
+  
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
-  margin-bottom: 4px;
+  padding-bottom: 4px;
   
 
   letter-spacing: 0.01em;
@@ -1131,8 +1131,9 @@ img {
 }
 
 .sign-text-reg {
-  margin-top: 20px;
+  margin-right: 8px;
 }
+
 
 .sign-name:hover,
 .sign-name:focus {
@@ -1178,6 +1179,10 @@ img {
 }
 
 .text-reg {
+  
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
