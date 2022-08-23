@@ -1000,7 +1000,7 @@ img {
 
 .modal-icon-1 {
   position: absolute;
-  top: 100px;
+  top: 103px;
   left: 50px;
   transition-property: fill;
   transition-duration: 250ms;
@@ -1025,7 +1025,7 @@ img {
 
 .modal-icon-2 {
   position: absolute;
-  top: 168px;
+  top: 170px;
   left: 50px;
   transition-property: fill;
   transition-duration: 250ms;
@@ -1060,12 +1060,12 @@ img {
 
 .modal-icon-3 {
   position: absolute;
-  top: 233px;
+  top: 240px;
   left: 50px;
 }
 
 .modal-field-name {
-  
+  margin-right: auto;
   
   font-family: 'Roboto';
   font-style: normal;
@@ -1197,5 +1197,6 @@ img {
 
 .reg-href {
   color: var(--blue-color);
+  
 
 }
